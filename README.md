@@ -34,15 +34,21 @@ Evaluation metrics include accuracy score to assess the model's predictive perfo
 # Streamlit Dashboard
 # Features:
 
-#   1. Home: Overview of the application and its purpose.
-#   2. Make a Prediction: User-friendly interface to input health parameters and obtain diabetes        #      prediction.
-#   3. About Diabetes: Information on diabetes types and the Pima Indians Diabetes Dataset.
+#   1. Home: 
+Overview of the application and its purpose.
+#   2. Make a Prediction: 
+User-friendly interface to input health parameters and obtain diabetes prediction.
+#   3. About Diabetes: 
+Information on diabetes types and the Pima Indians Diabetes Dataset.
 
 # Implementation:
 
-# Sidebar Navigation: Allows users to switch between different sections of the dashboard.
-# Prediction: Takes user inputs, preprocesses them with a pre-trained scaler, and uses a pre-trained Keras model to predict diabetes likelihood.
-# Visualization: Displays prediction results and input summary dynamically with appropriate messages and images based on model predictions.
+# Sidebar Navigation: 
+Allows users to switch between different sections of the dashboard.
+# Prediction: 
+Takes user inputs, preprocesses them with a pre-trained scaler, and uses a pre-trained Keras model to predict diabetes likelihood.
+# Visualization: 
+Displays prediction results and input summary dynamically with appropriate messages and images based on model predictions.
 
 # To run the application:
     1.Clone this repository and install necessary libraries (numpy, pandas, scikit-learn, keras,       kerastuner, streamlit).
